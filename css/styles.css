@@ -1,0 +1,107 @@
+body {
+    background-image: url(../img/fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    right: 30px;
+    left: 30px;
+}
+
+h1{
+    background-color: rgb(3, 3, 3);
+    right: 30px;
+    left: 30px;
+}
+
+.Primeiradiv{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    text-align: center;
+    color: rgb(1, 2, 2);
+    background-color: rgba(254, 255, 255, 0.8);
+    /* conteúdo do arquivo estilo.css */
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    border-radius: 15px;
+  }
+
+  .Segundadiv{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 2, 0.7);
+    /* conteúdo do arquivo estilo.css */
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    border-radius: 15px;
+  }
+
+  .produtos {
+    display: flex; /* Alinha as divs lado a lado */
+    justify-content: center; /* Centraliza as divs */
+    gap: 20px; /* Espaço entre as divs */
+}
+
+.produto {
+    background-color: rgba(254, 255, 255, 0.7); /* Fundo com 50% de transparência */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%; /* Assegura que a imagem se ajuste ao contêiner */
+    border-radius: 10px;
+}
+
+.produto p {
+    font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins */
+    font-size: 1em;
+    color: rgb(1, 2, 2);
+    margin-top: 10px;
+}
+
+.rodape{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    right: 30px;
+    left: 30px;
+}
+
+.php-links {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 30px; /* Espaço entre as divs anteriores e os links */
+}
+
+.link-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313333; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-family: 'Poppins', sans-serif; /* Fonte */
+    font-size: 1em;
+    transition: background-color 0.3s; /* Suaviza a mudança de cor ao passar o mouse */
+}
+
+.link-botao:hover {
+    background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+}
+
+.link-botao:active {
+    background-color: #ffffff; /* Cor de fundo ao clicar */
+}
+
+  
