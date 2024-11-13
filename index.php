@@ -134,5 +134,8 @@
         <a href="php/cadastro.php" class="link-botao">Cadastro de Clientes</a>
         <a href="php/venda.php" class="link-botao">Venda</a>
     </div> 
+    <p>
+        Primeira aula de GIT
+    </p>
 </body>
 </html>
