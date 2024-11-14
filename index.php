@@ -135,7 +135,11 @@
         <a href="php/venda.php" class="link-botao">Venda</a>
     </div> 
     <p>
-        Primeira aula de GIT
+       alteração
+    </p>
+
+    <p>
+        "olá"
     </p>
 </body>
 </html>
